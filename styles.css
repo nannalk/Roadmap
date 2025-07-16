@@ -58,6 +58,7 @@
   --gray-700: #222222;
   --gray-750: #161616;
   --gray-800: #111111;
+  --gray-900: #0e0e0e;
 
   /* Preto e branco */
   --black: #000000;
@@ -73,6 +74,7 @@
   --font-xl: 1.5rem;    /* 24px */
   --font-xxl: 1.75rem;    /* 28px */
   --font-xxxl: 2rem;    /* 32px */
+  --font-xxxxl: 2.5rem;    /* 40px */
 
   /* Espaçamentos */
   --space-xs: 0.25rem;  /* 4px */
@@ -110,6 +112,8 @@
   --transition-fast: 0.2s ease-in-out;
   --transition-medium: 0.4s ease-in-out;
   --transition-slow: 0.7s ease-in-out;
+
+
 }
 
 
@@ -117,4 +121,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:content-box;
 }
+
+.vertical{
+    display: flex;
+    flex-direction: row
+}
+.horizontal{
+    display: flex;
+    flex-direction: column
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
