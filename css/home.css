@@ -55,7 +55,7 @@ main{
     background-color: var(--gray-900);
     border-radius: 2rem;
     color: var(--gray-200);
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
     font-family: "Quicksand", sans-serif;
     margin-bottom: 12rem;
 }
@@ -64,14 +64,14 @@ main{
     letter-spacing: .1rem;
     justify-self: center;
     font-size: var(--font-xxxxl);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .big_text_box p{
     color: var(--gray-300);
     letter-spacing: .1rem;
     justify-self: center;
-    font-size: var(--font-lg);
+    font-size: var(--font-lgg);
     margin-bottom: 1rem;
 }
 
@@ -79,7 +79,7 @@ main{
     width: 50rem;
     height: 30rem;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 0rem 2rem;
 }
 
@@ -93,6 +93,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: 0;
+    outline-offset: 0;
+    border: none;
 }
 
 .text_box p{
@@ -103,5 +106,9 @@ main{
 }
 
 .selected{
-    border: .25rem solid var(--purple-dark-300);
+    outline: .25rem solid var(--purple-dark-300);
+}
+
+.link{
+    outline: .25rem solid var(--blue-450);
 }
