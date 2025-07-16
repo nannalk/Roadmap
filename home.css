@@ -1,0 +1,43 @@
+
+body{
+    background-color: var(--gray-700);
+}
+
+header{
+    height: 6rem;
+    width: 100%;
+    background-color: var(--gray-750);
+    display:flex;
+}
+
+nav{
+    height: 6rem;
+    width: 50%;
+    position: inherit;
+    color: var(--gray-200);
+    display: flex;
+    align-items: center;
+    font-size: var(--font-xxl);
+    user-select: none;
+    justify-content: center;
+    padding-right: 10rem;
+}
+
+nav li{
+    display:inline-block;
+    margin: 0 1rem;
+}
+
+.logo{
+    height: 6rem;
+    width: 50%;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 3rem;
+    user-select: none;
+}
+
